@@ -1,0 +1,149 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    tools:context=".MainActivity"
+    android:background="#90CAF9">
+
+
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/scrollView"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+
+    <EditText
+        android:layout_width="225sp"
+        android:layout_height="40sp"
+        android:inputType="textPersonName"
+        android:hint="Name"
+        android:textColorHint="#FFFFFF"
+        android:padding="10dip"
+        android:backgroundTint="#FFFFFF"
+        android:id="@+id/Username"
+        android:layout_below="@+id/textView3"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
+
+
+    <EditText
+        android:layout_width="225sp"
+        android:layout_height="40sp"
+        android:inputType="textPassword"
+        android:hint="Password"
+        android:textColorHint="#FFFFFF"
+        android:backgroundTint="#FFFFFF"
+        android:padding="10dip"
+        android:id="@+id/editTextPassword"
+        android:layout_below="@+id/textView4"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
+
+    <EditText
+        android:layout_width="315sp"
+        android:layout_height="50sp"
+        android:inputType="phone"
+        android:id="@+id/Phone"
+        android:textColorHint="#FFFFFF"
+        android:padding="10dip"
+        android:hint="Phone"
+        android:backgroundTint="#FFFFFF"
+        android:layout_above="@+id/register_register"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
+
+    <EditText
+        android:layout_width="315sp"
+        android:layout_height="40sp"
+        android:inputType="textPostalAddress"
+        android:id="@+id/Address"
+        android:hint="Address"
+        android:backgroundTint="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:layout_below="@+id/textView6"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageButton
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:id="@+id/register_register"
+        android:elevation="10dp"
+        android:layout_marginRight="25dp"
+        android:background="@drawable/oval"
+        android:src="@drawable/ss"
+        android:layout_gravity="right|bottom"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Enter Your Password"
+        android:textColor="#2196F3"
+        android:id="@+id/textView4"
+        android:layout_marginTop="40dp"
+        android:layout_below="@+id/Username"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Choose Your Name!!"
+        android:textColor="#2196F3"
+        android:id="@+id/textView3"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Pick Your Destination"
+        android:textColor="#2196F3"
+        android:id="@+id/textView6"
+        android:layout_marginTop="40dp"
+        android:layout_below="@+id/editTextEmail"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Enter the Mail-id"
+        android:textColor="#2196F3"
+        android:id="@+id/textView5"
+        android:layout_below="@+id/editTextPassword"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="42dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:id="@+id/editTextEmail"
+        android:backgroundTint="#FFFFFF"
+        android:hint="Email"
+        android:textColorHint="#FFFFFF"
+        android:layout_below="@+id/textView5"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Contact Number"
+        android:textColor="#2196F3"
+        android:id="@+id/textView9"
+        android:layout_above="@+id/Phone"
+        android:layout_alignParentStart="true" />
+
+
+</RelativeLayout>
